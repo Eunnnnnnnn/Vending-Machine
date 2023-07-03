@@ -1,6 +1,8 @@
-body {
+body,
+h1 {
     background: #EAE8FE;
-    ;
+    margin: 0;
+    padding: 0;
 }
 
 section {
@@ -10,12 +12,13 @@ section {
     gap: 38px;
 }
 
-.logo > img {
+h1 {
+    text-align: center;
+}
+
+h1 img {
     width: 386px;
-    height: 164px;
-    display: flex;
-    justify-content: center;
-    align-items: top;
+    max-width: calc(100% - (97px * 2));
 }
 
 .screen {
@@ -36,6 +39,10 @@ section {
 .Cola {
     width: 94px;
     height: 130px;
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+    flex-wrap: wrap;
     background: #fff;
     border: 3px solid #6327fe;
     border-radius: 10px;
