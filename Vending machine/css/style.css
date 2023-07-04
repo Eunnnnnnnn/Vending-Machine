@@ -1,5 +1,8 @@
 body,
-h1 {
+section,
+h1,
+div,
+button {
     background: #EAE8FE;
     margin: 0;
     padding: 0;
